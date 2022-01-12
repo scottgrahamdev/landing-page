@@ -1,0 +1,86 @@
+
+/* NAV SECTION */
+
+.nav-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px 0;
+}
+
+.logo-text {
+    color: white;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.nav-link {
+    color: rgb(134, 121, 121);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    padding: 80px 240px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    background-color: #1F2937
+}
+
+.hero-lg,
+.hero-sm {
+    font-family: "Inter", sans-serif;
+}
+
+.hero-lg {
+    color: white;
+}
+
+.hero-sm {
+    color: rgb(158, 158, 158);
+}
+
+.hero-text {
+    width: 300px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+    padding: 90px 110px 90px;
+    background-color: grey;
+    /* border-top: 10px; */
+    text-align: center;
+}
+
+.placeholder {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-btn {
+    background-color: rgb(79, 120, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+
