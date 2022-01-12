@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 240px 0;
+    padding: 0 15%;
 }
 
 .logo-text {
@@ -30,13 +30,14 @@
 }
 
 
+
 /* HERO SECTION */
 
 .hero-section {
-    padding: 80px 240px 80px;
+    padding: 80px 15% 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     gap: 10px;
 }
@@ -51,7 +52,7 @@
     font-weight: 800;
     font-size: 42px;
     margin: 0;
-    width: 300px;
+    max-width: 300px;
 }
 
 .hero-sm {
@@ -68,10 +69,13 @@
 
 .hero-img {
     display: flex;
-    justify-content: flex-end;
-    padding: 90px 120px 90px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 90px 120px 90px; */
     background-color: rgb(161, 161, 161);
     text-align: center;
+    height: 200px;
+    width: 400px;
 }
 
 .placeholder {
@@ -80,12 +84,20 @@
 }
 
 .hero-btn {
-    background-color: rgb(79, 120, 255);
+    background-color: #3882F6;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
     font-family: "Inter", sans-serif;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
 }
 
 /* INFO SECTION */
@@ -94,14 +106,14 @@
     height: 150px;
     width: 150px;
     background-color: white;
-    border-color: blue;
+    border-color: #3882F6;
     border-radius: 10px;
     margin: auto;
 }
 
 .info-section {
     text-align: center;
-    padding: 80px 240px 80px;
+    padding: 80px 20% 80px;
 }
 
 .container {
@@ -135,7 +147,7 @@
 /* TESTIMONIAL SECTION */
 
 .testimonial-section {
-    padding: 120px 240px;
+    padding: 120px 20%;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -165,7 +177,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 140px 180px;
+    padding: 140px 20%;
 }
 
 .cta-container {
@@ -176,14 +188,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 350px;
+    gap: 250px;
+    text-align: left;
 }
 
 .cta-btn-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .cta-text-lg,
@@ -191,6 +204,7 @@
     margin: 0;
     color: white;
     font-family: "Inter", sans-serif;
+    padding-left: 50px;
 }
 
 .cta-text-lg {
@@ -213,6 +227,18 @@
     width: 100px;
     border-style: solid;
     color: white;
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    font-family: "Inter", sans-serif;
 }
 
 
