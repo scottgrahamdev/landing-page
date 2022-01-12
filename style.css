@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 300px;
     background-color: #1F2937
 }
 
@@ -48,22 +47,27 @@
 
 .hero-lg {
     color: white;
+    font-weight: 800;
+    font-size: 42px;
+    margin: 0;
 }
 
 .hero-sm {
     color: rgb(158, 158, 158);
+    
 }
 
 .hero-text {
     width: 300px;
+    flex: 1 0 auto;
+    padding-right: 40px;
 }
 
 .hero-img {
     display: flex;
     justify-content: flex-end;
-    padding: 90px 110px 90px;
+    padding: 90px 120px 90px;
     background-color: grey;
-    /* border-top: 10px; */
     text-align: center;
 }
 
@@ -76,11 +80,52 @@
     background-color: rgb(79, 120, 255);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 15px;
     font-family: "Inter", sans-serif;
-    
 }
 
+/* INFO SECTION */
+
+.img-placeholder {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-color: blue;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.info-section {
+    text-align: center;
+    padding: 80px 240px 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-title {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+
+.info-text {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.info {
+    max-width: 200px;
+}
 
 
