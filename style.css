@@ -37,7 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937
+    background-color: #1F2937;
+    gap: 10px;
 }
 
 .hero-lg,
@@ -50,16 +51,18 @@
     font-weight: 800;
     font-size: 42px;
     margin: 0;
+    width: 300px;
 }
 
 .hero-sm {
     color: rgb(158, 158, 158);
+    width: 400px;
     
 }
 
 .hero-text {
     width: 300px;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     padding-right: 40px;
 }
 
@@ -67,7 +70,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 90px 120px 90px;
-    background-color: grey;
+    background-color: rgb(161, 161, 161);
     text-align: center;
 }
 
@@ -121,11 +124,97 @@
     font-weight: 400;
     font-family: "Inter", sans-serif;
     padding-top: 10px;
-    font-size: 14px;
+    color: rgb(71, 71, 71);
+    width: 200px;
 }
 
 .info {
     max-width: 200px;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section {
+    padding: 120px 240px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    flex: 0 1 auto;
+    width: 850px;
+}
+
+.signature {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    padding-right: 10px;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 140px 180px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    height: 150px;
+    width: 1200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+
+.cta-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.cta-text-lg,
+.cta-text-sm {
+    margin: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.cta-text-lg {
+    font-size: 20px;
+    font-weight: 800;
+    width: 400px;
+}
+
+.cta-text-sm {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: white;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    color: white;
+}
+
+
 
 
